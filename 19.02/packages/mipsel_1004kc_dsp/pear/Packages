@@ -1,0 +1,24 @@
+Package: pear_cdn
+Version: 1.0.0-1
+Depends: libc, libssp, libattr, libcurl, libffi, glib2, libiconv, libintl-full, libiconv-full, jansson, libnettle, libpcre, libpthread, libsrtp, openssl, libwebsockets-openssl, libevent2, libusrsctp, nginx-all-module
+Section: Pear
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 980080
+Filename: pear_cdn_1.0.0-1_mipsel_1004kc_dsp.ipk
+Size: 977183
+MD5Sum: a01994c72efb91d7c0c6eeccc371bf9c
+SHA256sum: d89775dea2f421a2f609c08836ed6d55ccb1e0de3aafccb8971d7371c1765ba7
+Description:  Pear FogVDN
+
+Package: pear_ota
+Version: 1-1
+Depends: libc, libssp, libcurl, jansson
+Section: Pear
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 14066
+Filename: pear_ota_1-1_mipsel_1004kc_dsp.ipk
+Size: 14672
+MD5Sum: a0a82cd7ce6ec7eb96eab5abb0397f4d
+SHA256sum: b295069a4855fc2b52aaf801cc7fc97be3cceb6aedb8b534d1bb3a98b729da0f
+Description:  Pear firmware OTA
+

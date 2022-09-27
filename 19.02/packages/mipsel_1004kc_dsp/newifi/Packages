@@ -1,0 +1,96 @@
+Package: manager
+Version: 1.0-2
+Depends: libc, libssp, libuci, libubox, libopenssl, libpthread, libjson-c, wan-discovery, nbtscan, libcurl, ca-certificates, ca-bundle, libubus, wget, libiwinfo
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 15529
+Filename: manager_1.0-2_mipsel_1004kc_dsp.ipk
+Size: 16232
+MD5Sum: 3e456b1d3a4fc7244af30855cb714695
+SHA256sum: 30e95d48d2ef77bff14752c98c154c2de70d2185dbb6d4d29b4a312e28bb7c70
+Description:  newifi router manager
+
+Package: newifi-gamehunter
+Version: 4.0.0-1
+Depends: libc, libssp
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 59609
+Filename: newifi-gamehunter_4.0.0-1_mipsel_1004kc_dsp.ipk
+Size: 60424
+MD5Sum: 1915c0ea8db0ce9db2630845f2200b6c
+SHA256sum: 860741e6789d03af0ef1b22b46e53b6a435826090806503f601817611d46d629
+Description:  gamehunter
+
+Package: newifi-luci2
+Version: 1-1
+Depends: libc, libssp, rpcd, rpcd-mod-iwinfo, uhttpd, uhttpd-mod-ubus, libubox, libubus
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 1684944
+Filename: newifi-luci2_1-1_mipsel_1004kc_dsp.ipk
+Size: 1684378
+MD5Sum: e3712664a61ed45d03d18b7e1b99f0c5
+SHA256sum: b39911c2a1f13bc4edf221e6183165badb8054973399663232a0590c9a35cc5e
+Description:  Provides the newifi(LuCI2-based) web interface with standard functionality.
+
+Package: newifi-srv
+Version: 1.7-2
+Depends: libc, libssp, libuci, libubus, ubus, ubusd, libubox, libopenssl, libpthread, libiwinfo, libparted, speedtest, curl
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 23871
+Filename: newifi-srv_1.7-2_mipsel_1004kc_dsp.ipk
+Size: 24538
+MD5Sum: 93d34b7327b5d2f748a5fb47fe183ff8
+SHA256sum: f3321dfecced12173054bd7fcd43fdfac859c1bd5392ba20cf015deff03a1b4a
+Description:  This package provides ubus service from Newifi Web and APP.
+
+Package: newifi-timecontrol
+Version: 4.0.0-1
+Depends: libc, libssp, libubox, libuci
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 155960
+Filename: newifi-timecontrol_4.0.0-1_mipsel_1004kc_dsp.ipk
+Size: 156690
+MD5Sum: 6454d062879fe490e535bc6f7a903c62
+SHA256sum: 3da40dd0b92eaf73f857a0558dfe6f6ce8da5b900c5ea5176fe3b4f24b8f6f6d
+Description:  Time control for client
+
+Package: restrict_app
+Version: 1
+Depends: libc, libssp, librt, libpthread, libuci, libjson-c
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 5047
+Filename: restrict_app_1_mipsel_1004kc_dsp.ipk
+Size: 5731
+MD5Sum: 7408bb24df94f2bcc2950dbb0c77d716
+SHA256sum: fe5dfc689c8163a82fde57cbab6e01c3d1f4d5740dea72d201cdfcd973895e3c
+Description:  access restrict
+
+Package: smartqos
+Version: 1.0-2
+Depends: libc, libssp, librt, libpthread, libuci, libjson-c, tc, iptables-mod-imq, libericstools, gargoyle-firewall-util, kmod-sched-core, kmod-sched-connmark
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 10887
+Filename: smartqos_1.0-2_mipsel_1004kc_dsp.ipk
+Size: 11646
+MD5Sum: 22eba9606dfe175b5d71b5222e2c5e92
+SHA256sum: e29354b15e55355fb77f8f226c3dbb43484f859ab6d04ebc61932ba025dfd4d7
+Description:  User mode daemon for QOS
+
+Package: xapi
+Version: 1.0-2
+Depends: libc, libssp, libuci, libubox, libopenssl, libpthread, libjson-c, libcurl, libubus, ubus
+Section: newifi
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 24096
+Filename: xapi_1.0-2_mipsel_1004kc_dsp.ipk
+Size: 24618
+MD5Sum: 237e8fe5b82e3f93f57bc5226aa225a7
+SHA256sum: a3b27ede7f347de0710320fdd828b448aa9eea01ee563a74f854752f89e8849a
+Description:  Xapi for newifi app
+

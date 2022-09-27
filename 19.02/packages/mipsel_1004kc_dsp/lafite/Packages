@@ -1,0 +1,60 @@
+Package: luci-mod-pandorabox
+Version: git-18.234.48328-986ce54-1
+Depends: libc, libssp, luci-mod-admin-full, pppoe-discovery
+Section: luci
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 37654
+Filename: luci-mod-pandorabox_git-18.234.48328-986ce54-1_mipsel_1004kc_dsp.ipk
+Size: 38460
+MD5Sum: f5a3f084f3a811adb8a7d8182ca35d16
+SHA256sum: 89a739f71356445f37a15ed3c79dc7f5dffe9b807509653fbeb79dfa6bae6284
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-pandorabox-simple
+Version: git-18.234.48328-986ce54-1
+Depends: libc, libssp, uhttpd, uhttpd-mod-ubus, firewall, luci-base, luci-mod-pandorabox, luci-theme-lafite-simple, wan-discovery, libiwinfo-lua, iwinfo
+Section: luci
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 105
+Filename: luci-pandorabox-simple_git-18.234.48328-986ce54-1_mipsel_1004kc_dsp.ipk
+Size: 873
+MD5Sum: c1d8e29a4e0039ab2f500cb2a37adc51
+SHA256sum: f1981b4d16c6f92f104dcfb9cd70fed348b10577eddb7402cf98bac882b03df5
+Description:  Standard PandoraBox theme
+
+Package: luci-pandorabox
+Version: git-18.234.48328-986ce54-1
+Depends: libc, libssp, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-mod-pandorabox, luci-theme-lafite, wan-discovery, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Section: luci
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 105
+Filename: luci-pandorabox_git-18.234.48328-986ce54-1_mipsel_1004kc_dsp.ipk
+Size: 925
+MD5Sum: 5a6f94902f4999df01ba64d734b2a243
+SHA256sum: b96742e6d4e61af621ded70ebaa5d82f28b43cdf837b05868f83bc4a65e0c0ff
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: luci-theme-lafite-simple
+Version: git-18.234.48328-986ce54-1
+Depends: libc, libssp, luci-mod-pandorabox
+Section: luci
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 325218
+Filename: luci-theme-lafite-simple_git-18.234.48328-986ce54-1_mipsel_1004kc_dsp.ipk
+Size: 324393
+MD5Sum: 2236d62ab38e8f69b650e8b1cc1e7ef2
+SHA256sum: 9c22b2e5a08256202634a79bf9974cd5688568858de8173239cf6d061de0129d
+Description:  LuCI lafite theme
+
+Package: luci-theme-lafite
+Version: git-18.234.48328-986ce54-1
+Depends: libc, libssp, luci-mod-pandorabox
+Section: luci
+Architecture: mipsel_1004kc_dsp
+Installed-Size: 322829
+Filename: luci-theme-lafite_git-18.234.48328-986ce54-1_mipsel_1004kc_dsp.ipk
+Size: 322376
+MD5Sum: 6cf47f74e7e8eae0e315471fbe2e67bc
+SHA256sum: 0a365b4c8d8ea46e0a5630b607117459fdebaedf332edcb56962a00509674d87
+Description:  LuCI lafite theme
+
